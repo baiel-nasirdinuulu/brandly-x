@@ -1,5 +1,5 @@
 .hero {
-  background-image: url(../img/back.png);
+  background-image: url(../../img/back.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -74,8 +74,11 @@
 .cotigories {
   margin-bottom: 73px;
 
+  padding: 0;
+
   &__box {
     height: 626px;
+    padding: 0;
   }
   &__h3 {
     margin: 0;
@@ -96,7 +99,7 @@
     &::before {
       position: absolute;
       top: auto;
-      bottom: -135px;
+      bottom: 20px;
       left: 46%;
 
       width: 115px;
@@ -107,7 +110,7 @@
     &::after {
       position: absolute;
       top: auto;
-      bottom: -40px;
+      bottom: -80px;
 
       left: 46%;
 
@@ -119,6 +122,7 @@
   }
   &__menu {
     margin-top: 70px;
+    padding: 0;
     display: flex;
     justify-content: space-between;
     gap: 30px;
@@ -133,13 +137,13 @@
     height: 419px;
   }
   .men {
-    background-image: url(../img/men.png);
+    background-image: url(../../img/men.png);
   }
   .woomen {
-    background-image: url(../img/woomen.png);
+    background-image: url(../../img/woomen.png);
   }
   .whatch {
-    background-image: url(../img/whatch.png);
+    background-image: url(../../img/whatch.png);
   }
 
   &__link {
