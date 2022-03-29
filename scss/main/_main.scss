@@ -1,5 +1,5 @@
 .hero {
-  background-image: url(../../img/back.jpg);
+  background-image: url("../../img/back.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -137,13 +137,13 @@
     height: 419px;
   }
   .men {
-    background-image: url(../../img/men.jpg);
+    background-image: url("../../img/men.jpg");
   }
   .woomen {
-    background-image: url(../../img/woomen.jpg);
+    background-image: url("../../img/woomen.jpg");
   }
   .whatch {
-    background-image: url(../../img/whatch.jpg);
+    background-image: url("../../img/watch.jpg");
   }
 
   &__link {
