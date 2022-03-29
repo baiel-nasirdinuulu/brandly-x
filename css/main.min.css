@@ -164,11 +164,11 @@ body {
     width: 350px;
     height: 419px; }
   .cotigories .men {
-    background-image: url("../.././img/men.jpg"); }
+    background-image: url("../../img/men.jpg"); }
   .cotigories .woomen {
-    background-image: url("../.././img/woomen.jpg"); }
+    background-image: url("../../img/woomen.jpg"); }
   .cotigories .whatch {
-    background-image: url("../.././img/watch.jpg"); }
+    background-image: url("../../img/watch.jpg"); }
   .cotigories__link {
     font-family: "Open Sans";
     font-style: italic;
@@ -280,7 +280,7 @@ body {
       background-color: #dc0000;
       color: wheat; }
 
-h4 p {
+.p {
   display: inline;
   margin: 0 10px; }
 
