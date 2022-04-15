@@ -1,0 +1,10 @@
+.btn {
+  text-decoration: none;
+
+  transition: all 0.4s;
+
+  &:hover {
+    background-color: rgb(84, 109, 109);
+    border: 1px solid rgb(59, 77, 77);
+  }
+}

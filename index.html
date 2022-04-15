@@ -16,127 +16,120 @@
   <body>
     <header class="header">
       <div class="container">
-        <nav class="header__inner">
-          <a href="#" class="header__logo">
-            <img src="./img/Brandly.svg" alt="" class="header__img" />
+        <div class="header__inner">
+          <a href="" class="header__logo logo">
+            <img src="img/Brandly.jpg" alt="brandly" class="logo__img" />
           </a>
-          <ul class="menu">
-            <li class="menu__list">
-              <a href="#" class="menu__link">home</a>
-            </li>
-            <li class="menu__list">
-              <a href="#" class="menu__link">shop</a>
-            </li>
-            <li class="menu__list">
-              <a href="#" class="menu__link">brands</a>
-            </li>
-            <li class="menu__list">
-              <a href="#" class="menu__link">blog</a>
-            </li>
-            <li class="menu__list">
-              <a href="#" class="menu__link">contacts</a>
-            </li>
-          </ul>
-        </nav>
+          <button class="header__nav-toggle">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M4 22h-4v-4h4v4zm0-12h-4v4h4v-4zm0-8h-4v4h4v-4zm3 0v4h17v-4h-17zm0 12h17v-4h-17v4zm0 8h17v-4h-17v4z"
+              />
+            </svg>
+          </button>
+
+          <nav class="header__nav">
+            <ul class="header__menu menu">
+              <li class="menu__item">
+                <a href="#" class="menu__link">home</a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">shop</a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">brands</a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">blog</a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">contact</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
       </div>
     </header>
-    <main class="main">
+
+    <main class="index-main">
       <section class="hero overly">
-        <div class="container">
-          <h2 class="hero__h2">Spring / Summer Collection</h2>
+        <div class="container heroo">
+          <h2 class="hero__title">Spring / Summer Collection</h2>
           <div class="hero__info">UP TO 60% DISCOUNT ON NEW ARRIVALS</div>
           <p class="hero__second-info">
             TRENDING NEW ITEMS,FROM CREATORS AROUND THE WORLD
           </p>
 
-          <a href="#" class="hero__link">shop now</a>
+          <a href="#" class="hero__link btn">shop now</a>
         </div>
       </section>
+
       <section class="cotigories">
         <div class="container">
+          <h3 class="cotigories__title section-title">cotigories</h3>
           <div class="cotigories__box">
-            <h3 class="cotigories__h3">cotigories</h3>
-            <ul class="cotigories__menu">
-              <li class="cotigories__list men overly">
+            <ul class="cotigories__list">
+              <li class="cotigories__item men overly">
                 <a href="#" class="cotigories__link">men</a>
               </li>
-              <li class="cotigories__list woomen overly">
+              <li class="cotigories__item woomen overly">
                 <a href="#" class="cotigories__link l">woomen</a>
               </li>
-              <li class="cotigories__list whatch overly">
-                <a href="#" class="cotigories__link">Accessories </a>
+              <li class="cotigories__item whatch overly">
+                <a href="#" class="cotigories__link s">Accessories </a>
               </li>
             </ul>
           </div>
         </div>
       </section>
+
       <section class="blog">
         <div class="container">
-          <h3 class="blog__h3">From the Blog</h3>
-          <div class="blog__inner">
-            <ul class="blog__menu">
-              <li class="blog__list">
-                <img src="./img/p.png" alt="photo" class="blog__img" />
-              </li>
-              <li class="blog__list">
-                <h3 class="blog__title">GERMAN FASHION WIZARDS</h3>
-              </li>
-              <li class="blog__list">
-                <h4 class="blog__athotor">
-                  By James Steed
-                  <span class="p">|</span>
-                  Fashion
-                </h4>
-                <hr />
-              </li>
-              <li class="blog__list">
-                <p class="blog__pharagraph">
-                  This week we had the chance of interviewing two creative
-                  artists from Germany. These guys are simply amazing at what
-                  they do with the European fashion scene and this year at Paris
-                  Fashion Week they introduced their new collection.
-                </p>
-              </li>
+          <h2 class="section-title blog__title">from the blog</h2>
+          <div class="blog__list">
+            <div class="blog__item">
+              <img src="img/p.png" alt="photo" class="blog__item-img" />
 
-              <li class="blog__list">
-                <a href="#" class="blog__link">read more</a>
-              </li>
-            </ul>
-            <ul class="blog__menu">
-              <li class="blog__list">
-                <img src="./img/p.png" alt="photo" class="blog__img" />
-              </li>
-              <li class="blog__list">
-                <h3 class="blog__title">GERMAN FASHION WIZARDS</h3>
-              </li>
-              <li class="blog__list">
-                <h4 class="blog__athotor">
-                  By James Steed
-                  <span class="p">|</span>
-                  Fashion
-                </h4>
-                <hr />
-              </li>
-              <li class="blog__list">
-                <p class="blog__pharagraph">
-                  This week we had the chance of interviewing two creative
-                  artists from Germany. These guys are simply amazing at what
-                  they do with the European fashion scene and this year at Paris
-                  Fashion Week they introduced their new collection.
-                </p>
-              </li>
+              <h3 class="blog__item-title">GERMAN FASHION WIZARDS</h3>
+              <p class="blog__item-ditails">
+                <span>By James Steed </span>
+                <span>Fashion</span>
+              </p>
+              <p class="blog__item-lead">
+                This week we had the chance of interviewing two creative artists
+                from Germany. These guys are simply amazing at what they do with
+                the European fashion scene and this year at Paris Fashion Week
+                they introduced their new collection.
+              </p>
+              <a href="#" class="btn blog__item-link">read more</a>
+            </div>
+            <div class="blog__item">
+              <img src="img/p.png" alt="photo" class="blog__item-img" />
 
-              <li class="blog__list">
-                <a href="#" class="blog__link">read more</a>
-              </li>
-            </ul>
+              <h3 class="blog__item-title">GERMAN FASHION WIZARDS</h3>
+              <p class="blog__item-ditails">
+                <span>By James Steed </span><span> Fashion</span>
+              </p>
+              <p class="blog__item-lead">
+                This week we had the chance of interviewing two creative artists
+                from Germany. These guys are simply amazing at what they do with
+                the European fashion scene and this year at Paris Fashion Week
+                they introduced their new collection.
+              </p>
+              <a href="#" class="btn blog__item-link">read more</a>
+            </div>
           </div>
         </div>
       </section>
     </main>
-    <footer class="footer">
+    <footer class="footer overlay">
       <div class="container">
-        <address class="a">Copyright Brandly. 2020</address>
+        <p>Copyright Brandly. 2020</p>
       </div>
     </footer>
   </body>
