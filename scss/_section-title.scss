@@ -1,0 +1,25 @@
+.section-title {
+  position: relative;
+  &::before {
+    position: absolute;
+    top: 0;
+    width: 115px;
+    background-color: #dc0000;
+    height: 3px;
+    left: 50%;
+    transform: translate(-50%);
+
+    content: "";
+  }
+  &::after {
+    position: absolute;
+    bottom: 0;
+    width: 115px;
+    background-color: #dc0000;
+    height: 3px;
+    left: 50%;
+    transform: translate(-50%);
+
+    content: "";
+  }
+}
